@@ -1,8 +1,8 @@
 {
-  "name": "vscode-snippets",
+  "name": "vscode-essentials-snippets",
   "version": "1.0.0",
-  "displayName": "VS Code Snippets",
-  "description": "VS Code Snippets",
+  "displayName": "VSCode Essentials Snippets",
+  "description": "A collection of essentials snippets for Visual Studio Code.",
   "publisher": "robertoachar",
   "icon": "images/logo.png",
   "galleryBanner": {
@@ -21,7 +21,8 @@
     "Snippets"
   ],
   "keywords": [
-    "Snippet"
+    "Snippet",
+    "EditorConfig"
   ],
   "engines": {
     "vscode": "^0.10.0"

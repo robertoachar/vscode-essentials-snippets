@@ -1,4 +1,5 @@
 * text=auto eol=lf
 
 # images
+*.gif binary
 *.png binary
