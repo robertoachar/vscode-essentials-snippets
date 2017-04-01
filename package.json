@@ -1,0 +1,30 @@
+{
+  "name": "vscode-snippets",
+  "version": "1.0.0",
+  "displayName": "VS Code Snippets",
+  "description": "VS Code Snippets",
+  "publisher": "robertoachar",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/robertoachar/vscode-snippets/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/vscode-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/vscode-snippets/issues"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "Snippet"
+  ],
+  "engines": {
+    "vscode": "^0.10.0"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

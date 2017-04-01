@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+# images
+*.png binary
