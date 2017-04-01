@@ -38,8 +38,5 @@
       }
     ]
   },
-  "devDependencies": {
-    "vsce": "1.20.0"
-  },
   "license": "SEE LICENSE IN LICENSE"
 }
