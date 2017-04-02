@@ -17,6 +17,16 @@
 
 Type part of a snippet, press `enter` and the snippet unfolds.
 
+#### Git snippets
+| Snippet | Content |
+| ------- | ------- |
+| `gitattributes` | .gitattributes file with eol=lf |
+| `gitattributes-archives` | Set archives as binary |
+| `gitattributes-documents` | Set documents as binary |
+| `gitattributes-executables` | Set executables as binary |
+| `gitattributes-fonts` | Set fonts as binary |
+| `gitattributes-graphics` | Set graphics as binary |
+
 #### Project snippets
 
 | Snippet | Content |

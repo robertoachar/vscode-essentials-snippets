@@ -1,7 +1,9 @@
 # Changelog
 
 ## 1.1.0
-* Add npm configuration file snippet
+* Add .gitattributes
+* Add .gitattributes with common binaries
+* Add npm configuration
 
 ## 1.0.0
-* Add EditorConfig snippet
+* Add EditorConfig
