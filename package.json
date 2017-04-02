@@ -33,6 +33,10 @@
   "contributes": {
     "snippets": [
       {
+        "language": "plaintext",
+        "path": "snippets/plaintext.json"
+      },
+      {
         "language": "properties",
         "path": "snippets/properties.json"
       }

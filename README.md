@@ -17,11 +17,12 @@
 
 Type part of a snippet, press `enter` and the snippet unfolds.
 
-#### Properties snippets
+#### Project snippets
 
 | Snippet | Content |
 | ------- | ------- |
 | `editorconfig` | EditorConfig file |
+| `npmrc` | npm configuration file |
 
 ## Author
 
