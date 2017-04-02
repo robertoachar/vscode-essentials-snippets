@@ -29,4 +29,4 @@ Type part of a snippet, press `enter` and the snippet unfolds.
 
 ## License
 
-[MIT](https://github.com/robertoachar/vscode-snippets/blob/master/LICENSE)
+[MIT](https://github.com/robertoachar/vscode-essentials-snippets/blob/master/LICENSE)
