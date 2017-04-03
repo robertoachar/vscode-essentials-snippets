@@ -6,7 +6,7 @@
 
 ## Installation
 
-1. Install Visual Studio Code
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
 2. Launch Visual Studio Code
 3. Choose **Extensions** from menu
 4. Search for `vscode-essentials-snippets`
@@ -15,9 +15,9 @@
 
 ## Usage
 
-Type part of a snippet, press `enter` and the snippet unfolds. For snippets in markdown format you need to press `ctrl+space`.
+Type part of a snippet, press `enter` and the snippet unfolds. For snippets in markdown format you need to press `ctrl+space` (Windows / Linux) or `cmd+space` (OSX).
 
-#### Git snippets
+### Git snippets
 | Snippet | Content |
 | ------- | ------- |
 | `gitattributes` | .gitattributes file with eol=lf |
@@ -29,12 +29,76 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 | `CHANGELOG` | A CHANGELOG.md template |
 | `README` | A README.md template |
 
-#### Project snippets
+### Project snippets
 
 | Snippet | Content |
 | ------- | ------- |
 | `editorconfig` | EditorConfig file |
 | `npmrc` | npm configuration file |
+
+## Development
+
+### Install dependencies
+
+1. Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+2. Install [Visual Studio Code](https://code.visualstudio.com/)
+
+### Run
+
+Clone the repo
+
+```bash
+$ git clone https://github.com/robertoachar/vscode-snippets.git
+```
+
+Install vsce
+
+```bash
+$ npm install -g vsce
+```
+
+Build the extension file
+
+```bash
+$ vsce package
+
+# or
+
+$ npm run build
+```
+
+Install the extension from a package file (.vsix)
+
+1. Launch Visual Studio Code
+2. Choose **Extensions** from menu
+3. Click **More** > **Install from VSIX...**
+4. Select the file `vscode-essentials-snippets-x.x.x.vsix`
+6. Click **Reload Now** to reload the Code
+
+### Publish
+
+Install vsce
+
+```bash
+$ npm install -g vsce
+```
+
+Create a publisher
+```bash
+$ vsce create-publisher (publisher name)
+```
+
+Login
+```bash
+$ vsce login (publisher name)
+```
+
+Publish
+```bash
+$ vsce publish
+```
+
+For more detailed information about publish: [Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension).
 
 ## Author
 
