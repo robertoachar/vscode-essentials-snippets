@@ -15,7 +15,7 @@
 
 ## Usage
 
-Type part of a snippet, press `enter` and the snippet unfolds.
+Type part of a snippet, press `enter` and the snippet unfolds. For snippets in markdown format you need to press `ctrl+space`.
 
 #### Git snippets
 | Snippet | Content |
@@ -26,6 +26,8 @@ Type part of a snippet, press `enter` and the snippet unfolds.
 | `gitattributes-executables` | Set executables as binary |
 | `gitattributes-fonts` | Set fonts as binary |
 | `gitattributes-graphics` | Set graphics as binary |
+| `CHANGELOG` | A CHANGELOG.md template |
+| `README` | A README.md template |
 
 #### Project snippets
 

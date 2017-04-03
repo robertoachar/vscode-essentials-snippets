@@ -21,8 +21,12 @@
     "Snippets"
   ],
   "keywords": [
-    "Snippet",
-    "EditorConfig"
+    "EditorConfig",
+    "Git",
+    "GitHub",
+    "Markdown",
+    "npm",
+    "Snippet"
   ],
   "engines": {
     "vscode": "^0.10.0"
@@ -32,6 +36,10 @@
   },
   "contributes": {
     "snippets": [
+      {
+        "language": "markdown",
+        "path": "snippets/markdown.json"
+      },
       {
         "language": "plaintext",
         "path": "snippets/plaintext.json"
