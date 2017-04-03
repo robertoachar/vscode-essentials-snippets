@@ -1,6 +1,6 @@
 {
   "name": "vscode-essentials-snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "VSCode Essentials Snippets",
   "description": "A collection of essentials snippets for Visual Studio Code.",
   "publisher": "robertoachar",
@@ -9,20 +9,19 @@
     "color": "#333333",
     "theme": "dark"
   },
-  "homepage": "https://github.com/robertoachar/vscode-snippets/blob/master/README.md",
+  "homepage": "https://github.com/robertoachar/vscode-essentials-snippets/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/robertoachar/vscode-snippets.git"
+    "url": "https://github.com/robertoachar/vscode-essentials-snippets.git"
   },
   "bugs": {
-    "url": "https://github.com/robertoachar/vscode-snippets/issues"
+    "url": "https://github.com/robertoachar/vscode-essentials-snippets/issues"
   },
   "categories": [
     "Snippets"
   ],
   "keywords": [
-    "Snippet",
-    "EditorConfig"
+    "Snippet"
   ],
   "engines": {
     "vscode": "^0.10.0"
@@ -32,6 +31,14 @@
   },
   "contributes": {
     "snippets": [
+      {
+        "language": "markdown",
+        "path": "snippets/markdown.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "snippets/plaintext.json"
+      },
       {
         "language": "properties",
         "path": "snippets/properties.json"

@@ -1,0 +1,10 @@
+{
+  "npm config file": {
+    "prefix": "npmrc",
+    "description": "The npm configuration file",
+    "body": [
+      "save-exact = true",
+      ""
+    ]
+  }
+}
