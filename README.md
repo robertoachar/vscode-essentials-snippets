@@ -35,6 +35,7 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 | ------- | ------- |
 | `editorconfig` | EditorConfig file |
 | `npmrc` | npm configuration file |
+| `package` | package.json file |
 
 ## Development
 

@@ -32,6 +32,10 @@
   "contributes": {
     "snippets": [
       {
+        "language": "json",
+        "path": "snippets/json.json"
+      },
+      {
         "language": "markdown",
         "path": "snippets/markdown.json"
       },
