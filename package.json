@@ -46,6 +46,10 @@
       {
         "language": "properties",
         "path": "snippets/properties.json"
+      },
+      {
+        "language": "typescript",
+        "path": "snippets/typescript.json"
       }
     ]
   },

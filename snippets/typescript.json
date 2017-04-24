@@ -1,0 +1,151 @@
+{
+  "Angular Class": {
+    "prefix": "ng-class",
+    "description": "Angular class",
+    "body": [
+      "export class ${Name} {",
+      "\t$0",
+      "}",
+      ""
+    ]
+  },
+  "Angular Component": {
+    "prefix": "ng-component",
+    "description": "Angular component",
+    "body": [
+      "import { Component, OnInit } from '@angular/core';",
+      "",
+      "@Component({",
+      "\tselector: '${selector}',",
+      "\ttemplateUrl: '${name}.component.html'",
+      "})",
+      "",
+      "export class ${Name}Component implements OnInit {",
+      "",
+      "\tconstructor() { }",
+      "",
+      "\tngOnInit() {",
+      "\t\t$0",
+      "\t}",
+      "",
+      "}",
+      ""
+    ]
+  },
+  "Angular Directive": {
+    "prefix": "ng-directive",
+    "description": "Angular directive",
+    "body": [
+      "import { Directive } from '@angular/core';",
+      "",
+      "@Directive({",
+      "\tselector: '${selector}'",
+      "})",
+      "export class ${Name}Directive {",
+      "",
+      "\tconstructor() { }",
+      "",
+      "}",
+      "$0"
+    ]
+  },
+  "Angular Enum": {
+    "prefix": "ng-enum",
+    "description": "Angular enum",
+    "body": [
+      "export enum ${Name} {",
+      "\t$0",
+      "}",
+      ""
+    ]
+  },
+  "Angular Guard": {
+    "prefix": "ng-guard",
+    "description": "Angular guard",
+    "body": [
+      "import { Injectable } from '@angular/core';",
+      "import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';",
+      "import { Observable } from 'rxjs/Observable';",
+      "",
+      "@Injectable()",
+      "export class ${Name}Guard implements CanActivate {",
+      "\tcanActivate(",
+      "\t\tnext: ActivatedRouteSnapshot,",
+      "\t\tstate: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean {",
+      "\t\treturn true;",
+      "\t}",
+      "}",
+      "$0"
+    ]
+  },
+  "Angular Interface": {
+    "prefix": "ng-interface",
+    "description": "Angular Interface",
+    "body": [
+      "export interface I${Name} {",
+      "\t$0",
+      "}",
+      ""
+    ]
+  },
+  "Angular Module": {
+    "prefix": "ng-module",
+    "description": "Angular module",
+    "body": [
+      "import { NgModule } from '@angular/core';",
+      "import { CommonModule } from '@angular/common';",
+      "",
+      "@NgModule({",
+      "\timports: [",
+      "\t\tCommonModule",
+      "\t],",
+      "\texports: [],",
+      "\tdeclarations: []",
+      "\tproviders: [],",
+      "})",
+      "export class ${Name}Module { }",
+      "$0"
+    ]
+  },
+  "Angular Pipe": {
+    "prefix": "ng-pipe",
+    "description": "Angular pipe",
+    "body": [
+      "import { Pipe, PipeTransform } from '@angular/core';",
+      "",
+      "@Pipe({",
+      "\tname: '${name}'",
+      "})",
+      "export class ${Name}Pipe implements PipeTransform {",
+      "",
+      "\ttransform(value: any, args?: any): any {",
+      "\t\treturn null;",
+      "\t}",
+      "",
+      "}",
+      "$0"
+    ]
+  },
+  "Angular Service": {
+    "prefix": "ng-service",
+    "description": "Angular service",
+    "body": [
+      "import { Injectable } from '@angular/core';",
+      "",
+      "@Injectable()",
+      "export class ${Name}Service {",
+      "",
+      "\tconstructor() { }",
+      "",
+      "}",
+      "$0"
+    ]
+  }
+}
+// "Angular ": {
+//   "prefix": "ng-",
+//   "description": "Angular ",
+//   "body": [
+//   "$0"
+//   ]
+// }

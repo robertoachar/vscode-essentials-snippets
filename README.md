@@ -17,6 +17,19 @@
 
 Type part of a snippet, press `enter` and the snippet unfolds. For snippets in markdown format you need to press `ctrl+space` (Windows / Linux) or `cmd+space` (OSX).
 
+### Angular snippets
+| Snippet | Content |
+| ------- | ------- |
+| `ng-class` | Angular Class |
+| `ng-component` | Angular Component |
+| `ng-directive` | Angular Directive |
+| `ng-enum` | Angular Enum |
+| `ng-guard` | Angular Guard |
+| `ng-interface` | Angular Interface |
+| `ng-module` | Angular Module |
+| `ng-pipe` | Angular Pipe |
+| `ng-service` | Angular Service |
+
 ### Git snippets
 | Snippet | Content |
 | ------- | ------- |
