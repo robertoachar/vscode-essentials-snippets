@@ -49,7 +49,7 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 Clone the repo
 
 ```bash
-$ git clone https://github.com/robertoachar/vscode-snippets.git
+$ git clone https://github.com/robertoachar/vscode-essentials-snippets.git
 ```
 
 Install vsce
