@@ -50,6 +50,10 @@
       {
         "language": "typescript",
         "path": "snippets/typescript.json"
+      },
+      {
+        "language": "yaml",
+        "path": "snippets/yaml.json"
       }
     ]
   },

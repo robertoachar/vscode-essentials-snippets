@@ -1,4 +1,37 @@
 {
+  "ESLint": {
+    "prefix": "eslintrc",
+    "description": "ESLint file",
+    "body": [
+      "{",
+      "\t\"env\": {",
+      "\t\t\"es6\": true,",
+      "\t\t\"jest\": true,",
+      "\t\t\"node\": true",
+      "\t},",
+      "\t\"extends\": \"eslint:recommended\",",
+      "\t\"rules\": {",
+      "\t\t\"indent\": [",
+      "\t\t\t\"error\",",
+      "\t\t\t2",
+      "\t\t],",
+      "\t\t\"linebreak-style\": [",
+      "\t\t\t\"error\",",
+      "\t\t\t\"unix\"",
+      "\t\t],",
+      "\t\t\"quotes\": [",
+      "\t\t\t\"error\",",
+      "\t\t\t\"single\"",
+      "\t\t],",
+      "\t\t\"semi\": [",
+      "\t\t\t\"error\",",
+      "\t\t\t\"always\"",
+      "\t\t]",
+      "\t}",
+      "}",
+      "$0"
+    ]
+  },
   "package.json": {
     "prefix": "package",
     "description": "package.json file",

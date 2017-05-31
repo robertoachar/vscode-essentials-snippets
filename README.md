@@ -4,7 +4,7 @@
 
 ![Preview](images/preview.gif)
 
-## Installation
+# Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 2. Launch Visual Studio Code
@@ -13,11 +13,12 @@
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
 
-## Usage
+# Usage
 
 Type part of a snippet, press `enter` and the snippet unfolds. For snippets in markdown format you need to press `ctrl+space` (Windows / Linux) or `cmd+space` (OSX).
 
-### Angular snippets
+## Angular snippets
+
 | Snippet | Content |
 | ------- | ------- |
 | `ng-class` | Angular Class |
@@ -30,7 +31,16 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 | `ng-pipe` | Angular Pipe |
 | `ng-service` | Angular Service |
 
-### Git snippets
+## Continuous Integration snippets
+
+| Snippet | Content |
+| ------- | ------- |
+| `ci-appveyor` | AppVeyor configuration file |
+| `ci-circle` | Circle configuration file |
+| `ci-travis` | Travis configuration file |
+
+## Git snippets
+
 | Snippet | Content |
 | ------- | ------- |
 | `gitattributes` | .gitattributes file with eol=lf |
@@ -42,7 +52,14 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 | `CHANGELOG` | A CHANGELOG.md template |
 | `README` | A README.md template |
 
-### Project snippets
+## Lint snippets
+
+| Snippet | Content |
+| ------- | ------- |
+| `eslint` | ESLint configuration file |
+| `eslintignore` | ESLint ignore file |
+
+## Project snippets
 
 | Snippet | Content |
 | ------- | ------- |
@@ -50,14 +67,14 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 | `npmrc` | npm configuration file |
 | `package` | package.json file |
 
-## Development
+# Development
 
-### Install dependencies
+## Install dependencies
 
 1. Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 2. Install [Visual Studio Code](https://code.visualstudio.com/)
 
-### Run
+## Run
 
 Clone the repo
 
@@ -89,7 +106,7 @@ Install the extension from a package file (.vsix)
 4. Select the file `vscode-essentials-snippets-x.x.x.vsix`
 6. Click **Reload Now** to reload the Code
 
-### Publish
+## Publish
 
 Install vsce
 
@@ -98,26 +115,29 @@ $ npm install -g vsce
 ```
 
 Create a publisher
+
 ```bash
-$ vsce create-publisher (publisher name)
+$ vsce create-publisher <publisher-name>
 ```
 
 Login
+
 ```bash
-$ vsce login (publisher name)
+$ vsce login <publisher-name>
 ```
 
 Publish
+
 ```bash
 $ vsce publish
 ```
 
 For more detailed information about publish: [Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension).
 
-## Author
+# Author
 
 [Roberto Achar](https://twitter.com/RobertoAchar)
 
-## License
+# License
 
 [MIT](https://github.com/robertoachar/vscode-essentials-snippets/blob/master/LICENSE)
