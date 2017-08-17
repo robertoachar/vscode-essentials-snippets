@@ -4,7 +4,7 @@
 
 * Add package.json
 * Add ESLint snippets (eslintrc, eslintignore)
-* Add Angular snippets (class, component, directive, enum, guard, interface, module, pipe, service)
+* Add Angular snippets (class, component, directive, enum, guard, interface, module, pipe, service, rxjs and html snippets)
 * Add Continuous Integration snippets (AppVeyor, Circle, Travis)
 
 ## 1.1.0

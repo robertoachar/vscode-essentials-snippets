@@ -19,10 +19,13 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 
 ## Angular snippets
 
+### TypeScript snippets
+
 | Snippet | Content |
 | ------- | ------- |
 | `ng-class` | Angular Class |
 | `ng-component` | Angular Component |
+| `ng-component-input` | Angular Component with Input |
 | `ng-directive` | Angular Directive |
 | `ng-enum` | Angular Enum |
 | `ng-guard` | Angular Guard |
@@ -30,6 +33,30 @@ Type part of a snippet, press `enter` and the snippet unfolds. For snippets in m
 | `ng-module` | Angular Module |
 | `ng-pipe` | Angular Pipe |
 | `ng-service` | Angular Service |
+
+### RxJS Snippets
+
+| Snippet | Content |
+| ------- | ------- |
+| `rx-extensions` | RxJS Extensions import |
+| `rx-observable` | RxJS Observable import |
+| `rx-subject` | RxJS Subject import |
+| `rx-subject-behavior` | RxJS BehaviorSubject import |
+| `rx-subject-replay` | RxJS ReplaySubject import |
+| `rx-add-observable` | RxJS add observable import |
+| `rx-add-operator` | RxJS add operator import |
+
+### HTML snipppets
+
+| Snippet | Content |
+| ------- | ------- |
+| `ng-ngFor` | Angular *ngFor |
+| `ng-ngIf` | Angular *ngIf |
+| `ng-ngModel` | Angular ngModel |
+| `ng-routerLink` | Angular routerLink |
+| `ng-routerLink-param` | Angular routerLink with a route parameter |
+| `ng-select` | select control with ngModel |
+| `ng-pre` | Angular pre with json |
 
 ## Continuous Integration snippets
 
