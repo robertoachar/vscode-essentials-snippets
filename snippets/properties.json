@@ -17,7 +17,7 @@
       "[*.md]",
       "max_line_length = off",
       "trim_trailing_whitespace = false",
-      ""
+      "$0"
     ]
   },
   "Git Attributes": {
@@ -25,7 +25,7 @@
     "description": ".gitattributes file",
     "body": [
       "* text=auto eol=lf",
-      ""
+      "$0"
     ]
   },
   "Git Attributes Archives": {
@@ -38,7 +38,7 @@
       "*.rar binary",
       "*.tar binary",
       "*.zip binary",
-      ""
+      "$0"
     ]
   },
   "Git Attributes Documents": {
@@ -47,7 +47,7 @@
     "body": [
       "# documents",
       "*.pdf binary",
-      ""
+      "$0"
     ]
   },
   "Git Attributes Executables": {
@@ -56,7 +56,7 @@
     "body": [
       "# executables",
       "*.exe binary",
-      ""
+      "$0"
     ]
   },
   "Git Attributes Fonts": {
@@ -69,7 +69,7 @@
       "*.ttf binary",
       "*.woff binary",
       "*.woff2 binary",
-      ""
+      "$0"
     ]
   },
   "Git Attributes Graphics": {
@@ -86,7 +86,7 @@
       "*.svg binary",
       "*.tif binary",
       "*.tiff binary",
-      ""
+      "$0"
     ]
   }
 }

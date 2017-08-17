@@ -10,8 +10,9 @@
       "* Fix some bug",
       "",
       "## 1.0.0",
-      "Initial release",
-      ""
+      "",
+      "* Initial release",
+      "$0"
     ]
   },
   "README.md": {
@@ -40,7 +41,7 @@
       "",
       "## License",
       "License name",
-      ""
+      "$0"
     ]
   }
 }
