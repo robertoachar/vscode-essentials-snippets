@@ -23,10 +23,7 @@
   "Git Attributes": {
     "prefix": "gitattributes",
     "description": ".gitattributes file",
-    "body": [
-      "* text=auto eol=lf",
-      "$0"
-    ]
+    "body": ["* text=auto eol=lf", "$0"]
   },
   "Git Attributes Archives": {
     "prefix": "gitattributes-archives",
@@ -44,20 +41,12 @@
   "Git Attributes Documents": {
     "prefix": "gitattributes-documents",
     "description": "Set documents as binary",
-    "body": [
-      "# documents",
-      "*.pdf binary",
-      "$0"
-    ]
+    "body": ["# documents", "*.pdf binary", "$0"]
   },
   "Git Attributes Executables": {
     "prefix": "gitattributes-executables",
     "description": "Set executables as binary",
-    "body": [
-      "# executables",
-      "*.exe binary",
-      "$0"
-    ]
+    "body": ["# executables", "*.exe binary", "$0"]
   },
   "Git Attributes Fonts": {
     "prefix": "gitattributes-fonts",

@@ -2,19 +2,12 @@
   "Import external module.": {
     "prefix": "import statement",
     "description": "Import external module.",
-    "body": [
-      "import { $0 } from '${1:module}';"
-    ]
+    "body": ["import { $0 } from '${1:module}';"]
   },
   "Angular Class": {
     "prefix": "ng-class",
     "description": "Angular class",
-    "body": [
-      "export class ${1:Name} {",
-      "\t$0",
-      "}",
-      ""
-    ]
+    "body": ["export class ${1:Name} {", "\t$0", "}", ""]
   },
   "Angular Component": {
     "prefix": "ng-component",
@@ -77,12 +70,7 @@
   "Angular Enum": {
     "prefix": "ng-enum",
     "description": "Angular enum",
-    "body": [
-      "export enum ${1:Name} {",
-      "\t$0",
-      "}",
-      ""
-    ]
+    "body": ["export enum ${1:Name} {", "\t$0", "}", ""]
   },
   "Angular Guard": {
     "prefix": "ng-guard",
@@ -106,12 +94,7 @@
   "Angular Interface": {
     "prefix": "ng-interface",
     "description": "Angular Interface",
-    "body": [
-      "export interface I${1:Name} {",
-      "\t$0",
-      "}",
-      ""
-    ]
+    "body": ["export interface I${1:Name} {", "\t$0", "}", ""]
   },
   "Angular Module": {
     "prefix": "ng-module",
@@ -180,49 +163,31 @@
   "RxJS Observable Import": {
     "prefix": "rx-observable",
     "description": "RxJS Observable import",
-    "body": [
-      "import { Observable } from 'rxjs/Observable';",
-      "$0"
-    ]
+    "body": ["import { Observable } from 'rxjs/Observable';", "$0"]
   },
   "RxJS Subject Import": {
     "prefix": "rx-subject",
     "description": "RxJS Subject import",
-    "body": [
-      "import { Subject } from 'rxjs/Subject';",
-      "$0"
-    ]
+    "body": ["import { Subject } from 'rxjs/Subject';", "$0"]
   },
   "RxJS BehaviorSubject Import": {
     "prefix": "rx-subject-behavior",
     "description": "RxJS BehaviorSubject import",
-    "body": [
-      "import { BehaviorSubject } from 'rxjs/BehaviorSubject';",
-      "$0"
-    ]
+    "body": ["import { BehaviorSubject } from 'rxjs/BehaviorSubject';", "$0"]
   },
   "RxJS ReplaySubject Import": {
     "prefix": "rx-subject-replay",
     "description": "RxJS ReplaySubject import",
-    "body": [
-      "import { ReplaySubject } from 'rxjs/ReplaySubject';",
-      "$0"
-    ]
+    "body": ["import { ReplaySubject } from 'rxjs/ReplaySubject';", "$0"]
   },
   "RxJS Add Observable Import": {
     "prefix": "rx-add-observable",
     "description": "RxJS Add Observable import",
-    "body": [
-      "import 'rxjs/add/observable/${1:of}';",
-      "$0"
-    ]
+    "body": ["import 'rxjs/add/observable/${1:of}';", "$0"]
   },
   "RxJS Add Operator Import": {
     "prefix": "rx-add-operator",
     "description": "RxJS Add Operator import",
-    "body": [
-      "import 'rxjs/add/operator/${1:map}';",
-      "$0"
-    ]
+    "body": ["import 'rxjs/add/operator/${1:map}';", "$0"]
   }
 }
