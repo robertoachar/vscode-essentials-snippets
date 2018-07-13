@@ -27,7 +27,8 @@
     "vscode": "^0.10.0"
   },
   "scripts": {
-    "build": "vsce package"
+    "build": "vsce package",
+    "publish": "vsce publish"
   },
   "contributes": {
     "snippets": [
@@ -60,6 +61,9 @@
         "path": "snippets/yaml.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "1.44.0"
   },
   "license": "SEE LICENSE IN LICENSE"
 }
