@@ -3,13 +3,13 @@
     "prefix": "CHANGELOG",
     "description": "A CHANGELOG.md template",
     "body": [
-      "# Changelog",
+      "# CHANGELOG",
       "",
-      "## 1.1.0",
+      "## v1.1.0",
       "* Add some feature",
       "* Fix some bug",
       "",
-      "## 1.0.0",
+      "## v1.0.0",
       "",
       "* Initial release",
       "$0"
